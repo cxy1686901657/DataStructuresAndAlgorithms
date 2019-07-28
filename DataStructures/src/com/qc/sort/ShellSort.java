@@ -21,14 +21,14 @@ public class ShellSort {
 //        PrintArrUtil.printArr(arr);
         shellSort(arr);
         PrintArrUtil.printArr(arr);
-//        Instant pre=Instant.now();
-//        int[] arr2 = new int[8000000];
-//        for(int i =0; i < 8000000;i++) {
-//            arr2[i] = (int)(Math.random() * 8000000); //生成一个[0, 8000000) 数
-//        }
-//        shellSort2(arr2);
-//        Instant now=Instant.now();
-//        System.out.println(Duration.between(pre, now));
+        Instant pre=Instant.now();
+        int[] arr2 = new int[8000000];
+        for(int i =0; i < 8000000;i++) {
+            arr2[i] = (int)(Math.random() * 8000000); //生成一个[0, 8000000) 数
+        }
+        shellSort2(arr2);
+        Instant now=Instant.now();
+        System.out.println(Duration.between(pre, now));
 
     }
 
