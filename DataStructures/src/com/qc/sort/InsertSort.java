@@ -36,21 +36,18 @@ public class InsertSort {
     public static void insertSort(int[] arr) {
         int insertVal = 0;
         int insertIndex = 0;
-        int count=0;
         for (int i = 0; i < arr.length - 1; i++) {
             insertVal=arr[i+1];
             insertIndex=i;
             while (insertIndex >= 0 && insertVal < arr[insertIndex]) {
                 arr[insertIndex + 1] = arr[insertIndex];
                 insertIndex--;
-                count++;
 //                System.out.println("互换了");
             }
             if (insertIndex+1!=i) {
                 arr[insertIndex + 1] = insertVal;
             }
         }
-        System.out.println(count);
     }
     //first
     public static void insertSort1(int[] arr) {
