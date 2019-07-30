@@ -1,7 +1,10 @@
 # DataStructuresAndAlgorithms
 Data structures and algorithms
-*  1.稀疏数组，二维数组
-*  2.数组实现队列
-*  3.单双向链表，约瑟夫问题
-*  4.栈，前中后缀表达式实现计算器
-*  5.递归，8皇后，迷宫问题
+*  1.sparse array and two-dimensional array
+*  2.array implementation queue
+*  3.single double linkedlist.Josepfu
+*  4.stack，before.center.later the suffix expression implementation calculator
+*  5.recursion.eightqueue.maze
+*  6.eight sort
+*  7.search algorithm 
+*  8.hash
